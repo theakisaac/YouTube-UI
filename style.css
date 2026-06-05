@@ -8,15 +8,15 @@ body {
     color: black;
     font-family: "Jaldi", Geneva, Verdana, sans-serif;
     margin: auto;
-    width: 95%;
+    width: 60%;
     font-size: 0.7rem;
     font-weight: 500;
 }
 
 .container {
-    border: 1px solid rgb(92, 92, 92);
-    padding: 4px 16px;
-    width: 100%;
+    border: 1px solid rgb(196, 196, 196);
+    padding: 8px;
+    margin: 0.2rem;
 }
 
 .top-page {
@@ -24,8 +24,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.3rem 0;
-    width: 90%;
+    text-align: center;
+    padding: 0.5rem 0;
+    width: 100%;
+   
 }
 
 .Youtube-logo {
@@ -67,20 +69,30 @@ input.search {
 
 .user-icon {
     color: grey;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+
 }
 
 
 .both-page {
 display: flex;
 gap: 6px;
-height: 38rem;
 width: 100%;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    background-color: white;
 }
 
 .left-side-page {
     
     display: flex;
-    width:10%;
+    width:16%;
     gap: 1rem;
 }
 
@@ -112,9 +124,7 @@ border-bottom: 1px solid grey;
 padding: 1.2rem 0;
 }
 
-
 .third-left-content {
-
 display: flex;
 flex-direction: column;
 gap: 1.2rem;
@@ -126,20 +136,14 @@ margin-bottom: 1rem;
     margin-bottom: -0.5rem;
 }
 
-
-.right-side-page {
-    background-color: rgb(217, 255, 0);
-    width: 80%;
-}
-
-
  .right-top-content {
   display: flex;
   flex-direction: row;
-  gap: 8px; 
   list-style: none;
-  justify-content: space-around;
-  
+  justify-content: space-between; 
+  padding: 0.6rem 0;
+  border-top: 1px solid rgb(212, 212, 212);
+  border-bottom: 1px solid rgb(212, 212, 212);
 }
 
 .right-top-content li a {
@@ -163,19 +167,16 @@ width: fit-content;
     color: white;
 }
 
-.right-middle-content {
-    background-color: rgb(238, 238, 238);
-    margin: 0.3rem 0;
-}
-
 .youtube-image-text {
 width: 25%;
 }
 
 .right-middle-content {
+    background-color: rgb(243, 243, 243);
+    margin: 0.3rem 0;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .yt-image {
@@ -204,25 +205,25 @@ width: 25%;
 
 .yt-image-5 {
     width: 100%;
-    background: url(./assets/images/f72d8bd76acd694cf3a524ee6fa7c1e0df64b38a.jpg)  center/cover no-repeat;
+    background: url(./assets/images/37e1f6a4066be8ca6bda03a827e173f50d3878ca.jpg)  center/cover no-repeat;
     height: 10rem;
 }
 
 .yt-image-6 {
     width: 100%;
-    background: url(./assets/images/f72d8bd76acd694cf3a524ee6fa7c1e0df64b38a.jpg)  center/cover no-repeat;
+    background: url(./assets/images/76f5be09529af06950f51bdef7ff44f6ad5246ff.jpg)  center/cover no-repeat;
     height: 10rem;
 }
 
 .yt-image-7 {
     width: 100%;
-    background: url(./assets/images/f72d8bd76acd694cf3a524ee6fa7c1e0df64b38a.jpg)  center/cover no-repeat;
+    background: url(./assets/images/1757e01e3d5d13aacde679e5699c6ba0e3d62e2a.jpg)  center/cover no-repeat;
     height: 10rem;
 }
 
 .yt-image-8 {
     width: 100%;
-    background: url(./assets/images/f72d8bd76acd694cf3a524ee6fa7c1e0df64b38a.jpg)  center/cover no-repeat;
+    background: url(./assets/images/213c62516fb3d3a8fb1ba935dbbdcbb6892b447d.jpg)  center/cover no-repeat;
     height: 10rem;
 }
 
@@ -236,36 +237,73 @@ width: 25%;
 
 .user-profile {
 background: url(./assets/images/ak\ isaac\ picture.jpg) center/cover no-repeat;
-width: 5%;
-border-radius: 70%;
-height: 15px;
+width: 12%;
+border-radius: 50%;
+height: 23px;
 }
 
 .user-profile-1 {
-background: url(./assets/images/1G3A1813Zz.JPG.jpeg) center/cover no-repeat;
-width: 1rem;
+background: url(./assets/images/WhatsApp\ Image\ 2026-06-01\ at\ 15.16.50.jpeg) center/cover no-repeat;
+width: 20px;
 border-radius: 50%;
+height: 19px;
 }
 
 .user-profile-2 {
 background: url(./assets/images/WhatsApp\ Image\ 2026-06-01\ at\ 15.16.50.jpeg) center/cover no-repeat;
-width: 1rem;
+width: 20px;
 border-radius: 50%;
+height: 19px;
 }
 
 .user-profile-3 {
 background: url(./assets/images/ak\ isaac\ picture.jpg) center/cover no-repeat;
-width: 1rem;
+width: 20px;
 border-radius: 50%;
+height: 19px;
+}
+
+.user-profile-4 {
+background: url(./assets/images/WhatsApp\ Image\ 2026-06-01\ at\ 15.16.50.jpeg) center/cover no-repeat;
+width: 25px;
+border-radius: 50%;
+height: 24px;
 }
 
 .user-details {
     flex: 1;
-    
     line-height: 1.1rem;
 }
 
+.main-right-bottom-content {
+ background-color: rgb(238, 238, 238);
+}
+
+.related-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0.5rem 2rem;
+}
+
+.fa {
+    font-size: 1.8em;
+}
+
+.fa-solid {
+    font-size: 1.7em;
+}
+
+.related-video h2 {
+    color: rgb(92, 92, 92);
+    font-size: 1.3rem;
+}
 
 .right-bottom-content {
-    background-color: rgb(202, 202, 202);margin: 0.3rem 0;
+   background-color: rgb(243, 243, 243);
+    margin-top: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
 }
