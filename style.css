@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: "Jaldi", Geneva, Verdana, sans-serif;
+    margin: auto;
+    width: 95%;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.container {
+    border: 1px solid rgb(92, 92, 92);
+    padding: 4px 16px;
+    width: 100%;
+}
+
+.top-page {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 0;
+    width: 90%;
+}
+
+.Youtube-logo {
+    display: flex;
+align-items: center;
+gap: 0.4rem;
+}
+
+.logo {
+    width: 80px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(196, 196, 196);
+
+}
+
+.fa-search {
+  color: rgb(194, 194, 194);
+  background-color: rgb(226, 226, 226);
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.4rem;
+  padding-right: 1.5rem;
+}
+input.search {
+    padding: 0.4rem;
+    width: 100%;
+    border: none;
+}
+
+::placeholder {
+    font-family: "Montserrat", Geneva, Verdana, sans-serif;
+    color: rgb(189, 189, 189);
+}
+
+.user-icon {
+    color: grey;
+}
+
+
+.both-page {
+display: flex;
+gap: 6px;
+height: 38rem;
+width: 100%;
+}
+
+.left-side-page {
+    
+    display: flex;
+    width:10%;
+    gap: 1rem;
+}
+
+
+
+.first-left-content {
+
+display: flex;
+flex-direction: column;
+gap: 1.2rem;
+margin-bottom: 1rem;
+}
+
+
+.left-icons-texts {
+    display: flex;
+    gap: 0.3rem;
+ 
+}
+
+.second-left-content {
+
+display: flex;
+flex-direction: column;
+gap: 1.2rem;
+margin-bottom: 1rem;
+border-top: 1px solid grey;
+border-bottom: 1px solid grey;
+padding: 1.2rem 0;
+}
+
+
+.third-left-content {
+
+display: flex;
+flex-direction: column;
+gap: 1.2rem;
+margin-bottom: 1rem;
+}
+
+.sub {
+    color: grey;
+    margin-bottom: -0.5rem;
+}
+
+
+.right-side-page {
+    background-color: rgb(217, 255, 0);
+    width: 80%;
+}
+
+
+ .right-top-content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px; 
+  list-style: none;
+  justify-content: space-around;
+  
+}
+
+.right-top-content li a {
+  background-color: rgb(206, 206, 206);
+  text-decoration: none;
+width: fit-content;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0 0.1rem ;
+  color: black;
+}
+
+.fa-angle-right {
+    color: grey;
+    background-color: white;
+    
+}
+
+#all {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.right-middle-content {
+    background-color: rgb(238, 238, 238);
+    margin: 0.3rem 0;
+}
+
+.youtube-image-text {
+width: 25%;
+}
+
+.right-middle-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.yt-image {
+    width: 100%;
+    background: url(./assets/images/213c62516fb3d3a8fb1ba935dbbdcbb6892b447d.jpg)  center/cover no-repeat;
+    height: 10rem;
+}
+
+.yt-image-2 {
+    width: 100%;
+    background: url(./assets/images/f72d8bd76acd694cf3a524ee6fa7c1e0df64b38a.jpg)  center/cover no-repeat;
+    height: 10rem;
+}
+
+.yt-image-3 {
+    width: 100%;
+    background: url(./assets/images/ab9e99639b22b033a006425248dfb541c7568aa1.jpg)  center/cover no-repeat;
+    height: 10rem;
+}
+
+.yt-image-4 {
+    width: 100%;
+    background: url(./assets/images/d0c9d9b6250cd8cad7cdef9ab860bde0cc4701e4.jpg)  center/cover no-repeat;
+    height: 10rem;
+}
+
+.yt-image-5 {
+    width: 100%;
+    background: url(./assets/images/f72d8bd76acd694cf3a524ee6fa7c1e0df64b38a.jpg)  center/cover no-repeat;
+    height: 10rem;
+}
+
+.yt-image-6 {
+    width: 100%;
+    background: url(./assets/images/f72d8bd76acd694cf3a524ee6fa7c1e0df64b38a.jpg)  center/cover no-repeat;
+    height: 10rem;
+}
+
+.yt-image-7 {
+    width: 100%;
+    background: url(./assets/images/f72d8bd76acd694cf3a524ee6fa7c1e0df64b38a.jpg)  center/cover no-repeat;
+    height: 10rem;
+}
+
+.yt-image-8 {
+    width: 100%;
+    background: url(./assets/images/f72d8bd76acd694cf3a524ee6fa7c1e0df64b38a.jpg)  center/cover no-repeat;
+    height: 10rem;
+}
+
+.images-text-details {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.4rem;
+    margin-bottom: 2rem;
+}
+
+
+.user-profile {
+background: url(./assets/images/ak\ isaac\ picture.jpg) center/cover no-repeat;
+width: 5%;
+border-radius: 70%;
+height: 15px;
+}
+
+.user-profile-1 {
+background: url(./assets/images/1G3A1813Zz.JPG.jpeg) center/cover no-repeat;
+width: 1rem;
+border-radius: 50%;
+}
+
+.user-profile-2 {
+background: url(./assets/images/WhatsApp\ Image\ 2026-06-01\ at\ 15.16.50.jpeg) center/cover no-repeat;
+width: 1rem;
+border-radius: 50%;
+}
+
+.user-profile-3 {
+background: url(./assets/images/ak\ isaac\ picture.jpg) center/cover no-repeat;
+width: 1rem;
+border-radius: 50%;
+}
+
+.user-details {
+    flex: 1;
+    
+    line-height: 1.1rem;
+}
+
+
+.right-bottom-content {
+    background-color: rgb(202, 202, 202);margin: 0.3rem 0;
+}
