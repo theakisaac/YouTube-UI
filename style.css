@@ -242,6 +242,14 @@ border-radius: 50%;
 height: 23px;
 }
 
+.user-profile-5 {
+background: url(./assets/user-icon/2f83ce6d0482b3ee5c88bc59720fbef3.jpg) center/cover no-repeat;
+width: 12%;
+border-radius: 50%;
+height: 23px;
+}
+
+
 .user-profile-1 {
 background: url(./assets/images/WhatsApp\ Image\ 2026-06-01\ at\ 15.16.50.jpeg) center/cover no-repeat;
 width: 20px;
@@ -250,7 +258,7 @@ height: 19px;
 }
 
 .user-profile-2 {
-background: url(./assets/images/WhatsApp\ Image\ 2026-06-01\ at\ 15.16.50.jpeg) center/cover no-repeat;
+background: url(./assets/user-icon/f30fc8692078dfc6580cbc50c586a29f.jpg) center/cover no-repeat;
 width: 20px;
 border-radius: 50%;
 height: 19px;
@@ -268,6 +276,48 @@ background: url(./assets/images/WhatsApp\ Image\ 2026-06-01\ at\ 15.16.50.jpeg) 
 width: 25px;
 border-radius: 50%;
 height: 24px;
+}
+
+.user-profile-5 {
+background: url(./assets/user-icon/f30fc8692078dfc6580cbc50c586a29f.jpg) center/cover no-repeat;
+width: 12%;
+border-radius: 50%;
+height: 23px;
+}
+
+.user-profile-6 {
+background: url(./assets/user-icon/cefe432418e3d0cf36bf58fb78e0b390.jpg) center/cover no-repeat;
+width: 12%;
+border-radius: 50%;
+height: 23px;
+}
+
+.user-profile-7 {
+background: url(./assets/user-icon/a6e6aaac6acaaf4092a6e13f89d1bd15.jpg) center/cover no-repeat;
+width: 12%;
+border-radius: 50%;
+height: 23px;
+}
+
+.user-profile-8 {
+background: url(./assets/user-icon/7157d20de2352bc1d52906dece89c64c.jpg) center/cover no-repeat;
+width: 12%;
+border-radius: 50%;
+height: 23px;
+}
+
+.user-profile-9 {
+background: url(./assets/user-icon/2f83ce6d0482b3ee5c88bc59720fbef3.jpg) center/cover no-repeat;
+width: 12%;
+border-radius: 50%;
+height: 23px;
+}
+
+.user-profile-10 {
+background: url(./assets/user-icon/IMG_6991.jpg) center/cover no-repeat;
+width: 12%;
+border-radius: 50%;
+height: 23px;
 }
 
 .user-details {
